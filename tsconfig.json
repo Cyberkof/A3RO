@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [],
+  "references": [
+    { "path": "./packages/types" },
+    { "path": "./packages/config" },
+    { "path": "./packages/formatter" },
+    { "path": "./packages/cli" },
+    { "path": "./packages/memory" },
+    { "path": "./packages/swarm" },
+    { "path": "./packages/agent" },
+    { "path": "./packages/tools" },
+    { "path": "./packages/events" },
+    { "path": "./packages/plugins" },
+    { "path": "./packages/transport" },
+    { "path": "./packages/orchestrator" },
+    { "path": "./packages/telemetry" }
+  ]
+}
